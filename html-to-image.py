@@ -3,9 +3,8 @@ from pyppeteer import launch
 
 async def main():
     # --- IMPORTANT ---
-    # Paste the path to your Brave browser executable here.
-    # The path below is the most common location for Brave on Windows.
-    # Use double backslashes (\\) in the path.
+    # Paste the path to your Brave browser or any chromium based browser executable here.
+    # Remove the 'r' if you're using an Unix based OS
     brave_executable_path = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
 
     html_content = """
